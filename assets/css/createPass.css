@@ -1,0 +1,67 @@
+/*
+ * Copyright 2007-2008. Adobe Systems Incorporated.
+ * All rights reserved.
+ */
+
+
+#closecreatepass {
+	position:absolute;
+	left:262px;
+	top:20px;
+	width:9px;
+	height:9px;
+	z-index:1;
+	visibility:visible;
+	background:url("/assets/images/createPass/close.png");
+}
+
+#closecreatepass:hover {
+	background:url("/assets/images/createPass/close_hover.png");
+}
+
+#new_password {
+	position:absolute;
+	left:15px;
+	bottom:82px;
+	width:153px;
+	height:22px;
+	z-index:2;
+	visibility:visible;
+}
+
+#confirm_password {
+	position:absolute;
+	left:15px;
+	bottom:49px;
+	width:153px;
+	height:21px;
+	z-index:3;
+	visibility:visible;
+}
+#okcreatepass {
+	position:absolute;
+	left:219px;
+	bottom:10px;
+	width:52px;
+	height:21px;
+	z-index:4;
+	visibility:visible;
+	background : url("/assets/images/createPass/ok.png");
+}
+
+#okcreatepass:hover {
+	background : url("/assets/images/createPass/ok_hover.png");
+}
+
+#newUser_text {
+	position:absolute;
+	left:15px;
+	top:43px;
+	font-size:12px;
+	width: 230px;
+}
+
+.hint {
+	font-weight:bold;
+	color : #750000;
+}

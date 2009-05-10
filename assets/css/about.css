@@ -1,0 +1,56 @@
+/*
+ * Copyright 2007-2008. Adobe Systems Incorporated.
+ * All rights reserved.
+ */
+
+#closeabout {
+	position:absolute;
+	left:262px;
+	top:10px;
+	width:9px;
+	height:9px;
+	z-index:1;
+	visibility:visible;
+	background:url("/assets/images/about/close.png");
+}
+
+#closeabout:hover {
+	background:url("/assets/images/about/close_hover.png");
+}
+
+#okabout {
+	position:absolute;
+	left:219px;
+	bottom:10px;
+	width:52px;
+	height:21px;
+	z-index:4;
+	visibility:visible;
+	background : url("/assets/images/about/ok.png");
+}
+
+#okabout:hover {
+	background : url("/assets/images/about/ok_hover.png");
+}
+
+.about {
+	font-family: tahoma;
+	text-align:left;
+	padding-left: 10px;
+	font-size:12px;
+}
+
+.about-title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 14px;
+	text-align:center;
+}
+
+.about-features {
+	padding-bottom: 10px;
+}
+
+.copyright {
+	text-align: center;
+}

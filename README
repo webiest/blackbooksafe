@@ -1,0 +1,1 @@
+BlackBookSafe is an HTML/JavaScript contact list sample application built on Adobe AIR 1.5. The application uses the JQuery framework and the AS3CoreLib library, and leverages three new AIR 1.5 features: Pixel Bender effects, 3D transformations, and the encrypted local database.

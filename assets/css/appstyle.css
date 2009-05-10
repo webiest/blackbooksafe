@@ -1,0 +1,150 @@
+/*
+ * Copyright 2007-2008. Adobe Systems Incorporated.
+ * All rights reserved.
+ */
+
+* {
+	-khtml-user-select:none;
+	-khtml-user-drag:none;
+}
+textarea, input, .selectable{
+	-khtml-user-select:text;
+}
+
+body {font-family: Helvetica, Arial, Tahoma, sans-serif; font-size:11px;}
+li {margin-bottom:14px}
+code {font-size:14px}
+input {	font-family: Helvetica, Arial, Tahoma, sans-serif; font-size:14px; font-weight:bold}
+
+textarea:focus, input:focus { outline: none;  }
+
+#listPageBorder {
+	position:absolute;
+	left:18px;
+	top:111px;
+	width:288px;
+	height:291px;
+	z-index:4;
+	visibility:visible;
+	overflow-y:auto;
+	background-color:transparent;
+	border-color : transparent;
+}
+
+#listPage {
+	background-color : transparent;
+}
+
+#searchBox {
+	position:absolute;
+	left:18px;
+	top:72px;
+	width:288px;
+	height:21px;
+	z-index:3;
+	visibility:visible;
+	background-color:transparent;
+	border-color : transparent;
+}
+
+.photoLarge {
+	padding-left : 10px;
+}
+
+.photoSmall {
+	padding-left : 10px;
+}
+
+.displayTable {
+	margin-right:20px;
+}
+
+.tableFieldName {
+	color : #474747;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size:12px;
+	display:block;
+	padding-top : 4px;
+	padding-left : 10px;
+}
+
+.narrowValue {
+	max-width:130px;
+	word-wrap:break-word;
+}
+
+.wideValue {
+	max-width:243px;
+	word-wrap:break-word;
+}
+
+.listValue {
+	max-width:200px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.tableFieldValue {
+	color : #474747;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	display:block;
+	margin-left : 10px;
+	background-color : transparent;
+	border-bottom-width : 0px;
+	border-top-width : 0px;
+	border-left-width : 0px;
+	border-right-width : 0px;
+}
+
+.editFieldValue {
+	color : #474747;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	display:block;
+	margin-left : 10px;
+	background-color : #EEEEEE;
+	border-bottom-width : 0px;
+	border-top-width : 0px;
+	border-left-width : 0px;
+	border-right-width : 0px;
+}
+
+.border {
+	height : 270px;
+	overflow-y : auto;
+}
+
+.header {
+	background-color : #AAAAAA;
+}
+
+.footer {
+	background-color : #AAAAAA;
+}
+
+body {
+	background-color : transparent;
+}
+
+
+.badPassword {
+	background-color : #F77979;
+}
+
+.goodPassword{
+	background-color : white
+}
+
+#editPage{
+	display: inline-block;
+}
+
+#detailPage{
+	display: inline-block;
+}
+.selectedContact{
+	background: #e8e8e8;
+}

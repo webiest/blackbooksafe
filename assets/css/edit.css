@@ -1,0 +1,57 @@
+/*
+ * Copyright 2007-2008. Adobe Systems Incorporated.
+ * All rights reserved.
+ */
+
+
+#closeedit {
+	position:absolute;
+	left:262px;
+	top:9px;
+	width:9px;
+	height:9px;
+	z-index:1;
+	visibility:visible;
+	
+	background : url("/assets/images/edit/close.png");
+}
+
+#closeedit:hover {
+	background : url("/assets/images/edit/close_hover.png");
+}
+
+#canceledit {
+	position:absolute;
+	left:150px;
+	top:309px;
+	width:61px;
+	height:21px;
+	z-index:2;
+	visibility:visible;
+	background : url("/assets/images/edit/cancel.png");
+}
+
+#canceledit:hover {
+	background : url("/assets/images/edit/cancel_hover.png");
+}
+
+#okedit {
+	position:absolute;
+	left:219px;
+	top:309px;
+	width:52px;
+	height:21px;
+	z-index:3;
+	visibility:visible;
+	background : url("/assets/images/edit/ok.png");
+}
+
+#okedit:hover {
+	background : url("/assets/images/edit/ok_hover.png");
+}
+
+#editPageBorder {
+	padding:0px;
+	width:279px;
+	margin-left:1px;
+}

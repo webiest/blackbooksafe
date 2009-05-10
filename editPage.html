@@ -1,0 +1,103 @@
+<!--
+  Copyright 2007-2008. Adobe Systems Incorporated.
+  All rights reserved.
+ -->
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <link href="assets/css/appstyle.css" rel="stylesheet" type="text/css"/>
+		<link href="assets/css/edit.css" rel="stylesheet" type="text/css"/>
+		
+		<script>
+			// 
+			 
+			function doDragEnter(event)
+			{
+				// this handler acts as the receiver
+				event.preventDefault();
+			}
+			function doDragOver(event)
+			{
+				// this handler acts as the receiver
+				event.preventDefault();
+			}
+			
+			function onKeyPress(event, maxlength) {
+				if (event.target.value.length > maxlength)
+					event.target.value = event.target.value.substring(0, maxlength);
+			}
+			
+		</script>
+	</head>
+	<body>
+		
+<div id="editPage">
+<table border="0" cellpadding="0" cellspacing="0" width="281">
+	<tr>
+		<td><img src="assets/images/spacer.gif" width="281" height="1" border="0" alt="" /></td>
+		<td><img src="assets/images/spacer.gif" width="1" height="1" border="0" alt="" /></td>
+	</tr>
+	
+	<tr>
+		<td id="editheader" background="assets/images/edit/header.png">
+			<div id="closeedit"></div>
+		</td>
+		<td><img src="assets/images/spacer.gif" width="1" height="30" border="0" alt="" /></td>
+	</tr>
+	<tr>
+		<td background="assets/images/edit/body_empty.png">
+			<div id="editPageBorder" class="border">
+				<table class="displayTable">
+					<tr>
+						<td>
+							<div id="photo_wrapper" 
+								ondragenter="doDragEnter(event)"
+                    			ondragover="doDragOver(event)" >
+									<img class="photoLarge" id="edit_photo" />
+							</div>
+							</td>
+						<td>
+							<span class="tableFieldName">First Name</span>
+							<input class="editFieldValue" type="text" maxlength="32" id="edit_firstName" />
+							
+							<span class="tableFieldName">Last Name</span>
+							<input class="editFieldValue" type="text" maxlength="32" id="edit_lastName" />
+							
+							<span class="tableFieldName">Phone</span>
+							<input class="editFieldValue" type="text" maxlength="32" id="edit_phone" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">							
+							<span class="tableFieldName">Email</span>
+							<input class="editFieldValue" type="text" maxlength="64" size="34" id="edit_email" />
+							
+							<span class="tableFieldName">Website</span>
+							<input class="editFieldValue" type="text" maxlength="256" size="34" id="edit_website" />
+
+							<span class="tableFieldName">Birthday</span>
+							<input class="editFieldValue" type="text" maxlength="32" size="34" id="edit_birthday" />
+							
+							<span class="tableFieldName">Notes</span>
+							<textarea class="editFieldValue" id="edit_notes" rows="5" style="width:244px"
+								onkeyup="onKeyPress(event, 1024)"></textarea>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</td>
+		<td><img src="assets/images/spacer.gif" width="1" height="175" border="0" alt="" /></td>
+	</tr>
+	<tr>
+		<td background="assets/images/edit/footer.png">
+			<div id="canceledit"></div>
+			<div id="okedit"></div>
+		</td>
+		<td><img src="assets/images/spacer.gif" width="1" height="38" border="0" alt="" /></td>
+	</tr>
+</table>
+</div>
+		
+	</body>
+</html>

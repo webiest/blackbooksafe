@@ -1,0 +1,56 @@
+/*
+ * Copyright 2007-2008. Adobe Systems Incorporated.
+ * All rights reserved.
+ */
+
+
+#minimize {
+	position:absolute;
+	left:284px;
+	top:19px;
+	width:13px;
+	height:11px;
+	z-index:1;
+	visibility:visible;
+	background : url("/assets/images/list/minimize.png");
+}
+
+#minimize:hover {
+	background : url("/assets/images/list/minimize_hover.png");
+}
+
+#close {
+	position:absolute;
+	left:297px;
+	top:19px;
+	width:14px;
+	height:11px;
+	z-index:2;
+	visibility:visible;
+	background : url("/assets/images/list/close.png");
+}
+
+#close:hover {
+	background : url("/assets/images/list/close_hover.png");	
+}
+
+#add {
+	position:absolute;
+	left:264px;
+	top:434px;
+	width:47px;
+	height:22px;
+	z-index:5;
+	visibility:visible;
+	background : url("/assets/images/list/add.png");
+}
+
+#add:hover{
+	background : url("/assets/images/list/add_hover.png");
+}
+
+#aboutBox {
+	position:absolute;
+	left:18px;
+	top:435px;
+}

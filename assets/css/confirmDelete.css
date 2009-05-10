@@ -1,0 +1,42 @@
+/*
+ * Copyright 2007-2008. Adobe Systems Incorporated.
+ * All rights reserved.
+ */
+
+#cancelconfirm {
+	position:absolute;
+	left:150px;
+	top:114px;
+	width:63px;
+	height:21px;
+	z-index:1;
+	visibility:visible;
+	background:url("/assets/images/confirmDelete/cancel.png");
+}
+
+#cancelconfirm:hover {
+	background:url("/assets/images/confirmDelete/cancel_hover.png");
+}
+
+#okconfirm {
+	position:absolute;
+	left:219px;
+	top:114px;
+	width:52px;
+	height:21px;
+	z-index:2;
+	visibility:visible;
+	background:url("/assets/images/confirmDelete/ok.png");
+}
+
+#okconfirm:hover {
+	background:url("/assets/images/confirmDelete/ok_hover.png");
+}
+
+#confirmText {
+	position:absolute;
+	left:15px;
+	top:43px;
+	font-size:12px;
+	width: 230px;
+}

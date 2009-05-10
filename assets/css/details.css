@@ -1,0 +1,101 @@
+/*
+ * Copyright 2007-2008. Adobe Systems Incorporated.
+ * All rights reserved.
+ */
+
+
+#closedetails {
+	position:absolute;
+	left:262px;
+	top:9px;
+	width:9px;
+	height:9px;
+	z-index:1;
+	visibility:visible;
+	background:url("/assets/images/details/close.png");
+}
+
+#closedetails:hover {
+	background:url("/assets/images/details/close_hover.png");
+}
+
+#prevdetails {
+	position:absolute;
+	left:10px;
+	top:309px;
+	width:23px;
+	height:21px;
+	z-index:2;
+	visibility:visible;
+	background:url("/assets/images/details/prev.png");
+}
+
+#prevdetails:hover {
+	background:url("/assets/images/details/prev_hover.png");
+}
+
+#nextdetails {
+	position:absolute;
+	left:33px;
+	top:309px;
+	width:24px;
+	height:21px;
+	z-index:3;
+	visibility:visible;
+	background:url("/assets/images/details/next.png");
+}
+
+#nextdetails:hover {
+	background:url("/assets/images/details/next_hover.png");
+}
+
+#backdetails {
+	position:absolute;
+	left:91px;
+	top:309px;
+	width:51px;
+	height:21px;
+	z-index:4;
+	visibility:visible;
+	background:url("/assets/images/details/back.png");
+}
+
+#backdetails:hover {
+	background:url("/assets/images/details/back_hover.png");
+}
+
+#deletedetails {
+	position:absolute;
+	left:150px;
+	top:309px;
+	width:61px;
+	height:21px;
+	z-index:5;
+	visibility:visible;
+	background:url("/assets/images/details/delete.png");
+}
+
+#deletedetails:hover {
+	background:url("/assets/images/details/delete_hover.png");
+}
+
+#editdetails {
+	position:absolute;
+	left:219px;
+	top:309px;
+	width:52px;
+	height:21px;
+	z-index:6;
+	visibility:visible;
+	background:url("/assets/images/details/edit.png");
+}
+
+#editdetails:hover {
+	background:url("/assets/images/details/edit_hover.png");
+}
+
+#detailPageBorder{
+	padding:0px;
+	width:279px;
+	margin-left:1px;
+}
